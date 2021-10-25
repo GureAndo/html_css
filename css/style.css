@@ -1,0 +1,27 @@
+/*attention les commentaire ne s'ecrivent pas de la meme maniere qu'en HTML*/
+/* les devloppeurs ont l'habitude d'utiliser un reset qui permet d'uniformiser la misse en page cross navigateur*/
+/* prenez l'habitude de tester votre fichier de style en mettant un background-color: red sur votre body
+body{
+    background-color: red;
+}*/
+
+selecteur{
+   propriété: valeur;/*le ; est nessaire au fonctionnement du code*/
+}
+
+.class{ /* permet de donné un nom a plusieur balise */
+    propriété: valeur; /* on peut mettre plusieur inscription à la suite*/
+    propriété: valeur;
+    propriété: valeur;
+}
+
+#id{ /* identifiant unique, on ne donne se nom qu'à une balise, sert aussi a faite une ancre */
+    propriété: valeur; 
+}
+
+.classe, #id, balise{
+    propriété: valeur;
+}
+
+.class1 .class2 .class3{ /*ici on parle de ka classe 3 qui est dans la classe 2 qui lui est dans la classe 1*/
+}
