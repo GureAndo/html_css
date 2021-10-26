@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alix">
+    <link rel="stylesheet" href="css/03_formulaire.css">
+    <title>formulaire HTML</title>
+</head>
+<body>
+    <form>
+        <!-- il ya deux manière d'organier ses champs-->
+        <label>
+            Pseudonyme
+            <input type="text" id="pseudo" placeholder="exemple" required>
+            <!-- type precise le type de donné recupérée, id sert aà utiliser la donnée avec d'autre langages, placeholder contient le texte qui apparait dans l'input, required précise aux navigateur que le champs est obligatoire -->
+        </label>
+
+        <br>
+
+        <label>
+            mot de passe <span title="le mot de passe peut contenir...">*</span>
+        </label>
+        <input type="password" placeholder="mot de passe" required>
+
+        <br>
+
+        <label>email</label>
+        <input type="email" placeholder=test@test.test>
+
+        <br>
+
+        <label for="photo">Photo</label>
+        <input type="file" id="photo">
+
+        <br>
+
+        <fieldset><!--exemple nom prenom-->
+            <legend>Choix multiples</legend>
+            
+            <label> Quelle destination choisissez-vous ?</label>
+            <P>
+                <input type="checkbox" name="reponce 1">Italie
+                <input type="checkbox" name="reponce 2">Japon
+                <input type="checkbox" name="reponce 3">Espagne
+            </P>   
+            
+            <label> Qui seront vos accompagnateurs ?</label>
+            <p>
+                <input type="radio" name="reponce1_2">En famille
+                <input type="radio" name="reponce2_2" checked>Entre amis<!--checked pour auto cocher-->
+                <input type="radio" name="reponce3_2">En solo
+            </p>
+        </fieldset>
+
+        <label>commentaires</label>
+        <textarea cols="80" rows="8"></textarea>
+
+        <input type="submit" value="envoyer">
+
+        <input type="reset" value="annuler">
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    background-color: lightskyblue;
+    font:size 25px;
+}
+
+h1{
+    background-color: mediumaquamarine;
+    color: midnightblue;
+}
+
+p{ 
+   color: red; 
+}
+
+section p:first-child{
+    color: darkorchid; /*1er p*/
+}
+
+section p:last-child{
+    color: lightpink;/*dernierp*/
+}
+
+section p:nth-child(even){
+    color: magenta;/*nombre paire*/
+}
+
+section p:nth-child(odd){
+    color: maroon;/*nombres impair*/
+}
+
+section p:nth-child(3), section p:nth-child(10){
+    color:black; /*seclection de p*/
+}
+
+.zone1{
+    color: darkblue;
+}
+
+.zone2{
+    color: gray;
+}
+
+.lime{
+    color: lime;
+}
+
+.zone3{
+    background-color: yellow;
+}
+
+.zone3:before{
+    content:"rajouté avant";/*content est oubligatoir pour rajouter des chose*/
+    background-color: orangered;
+}
+
+.zone3::after{
+    content: "rajouté après";
+    background-color: peru;
+}
+
+li:nth-of-type(2){
+    background-color: red;
+    color: white;
+}
+
+.zone4 span{
+    font-size: 77px;
+}
+
+span:not(.lime){
+    font-weight: bold;/*graise de de la polece*/
+}
+
+   

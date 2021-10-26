@@ -10,22 +10,38 @@
     <meta name="keywords" content="halloween, noel, html...">
 </head>
 <body>
-    <h1><strong>EXO 01</strong></h1>
-    <p>bonjour, <strong>joyeux halloween</strong>, on attend avec impatience ce: <em>week end de 3 jours!</em></p>
+    <section>
+    <h2>
+        EXO 01
+    </h2>
+
+    <p>
+        bonjour, <strong>joyeux halloween</strong>, on attend avec impatience ce: <em>week end de 3 jours!</em>
+    </p>
+    </section>
 
 <hr>
 
 
-    <h1>Exo 02</h1>
-        <h2>Mon repas de noël</h2>
-    <p>j'ai eu la chance d'avoir un repas de Noël <em>excelent,</em> puisque'il etaiscomposédes plats suivant: </p>
-    <ul>
-        <li>Du foie grassur des toast grillés <em>(ça j'adore)</em> </li>
-        <li>Du saumon rose</li>
-        <li>De la pintade avec de la purée</li>
-        <li>Une buche glacée</li>
-    </ul>  
-    <p>Et le tout arrosé de <strong>Champagne !</strong> </p>  
+    <section>
+    <h2>
+        Exo 02
+    </h2>
+        <h3>
+            Mon repas de noël
+        </h3>
+            <p>
+                 j'ai eu la chance d'avoir un repas de Noël <em>excelent,</em> puisque'il etaiscomposédes plats suivant: 
+            </p>
+                 <ul>
+                    <li>Du foie grassur des toast grillés <em>(ça j'adore)</em> </li>
+                     <li>Du saumon rose</li>
+                     <li>De la pintade avec de la purée</li>
+                    <li>Une buche glacée</li>
+                </ul>  
+             <p>
+                 Et le tout arrosé de <strong>Champagne !</strong> 
+            </p>  
 
 <p>Après j'ai pu déballer tout mes cadeaux :</p>
     <ol>
@@ -33,7 +49,9 @@
         <li>mamie Elisabeth : des CD</li>
         <li>tonton Hugues : des <strong>livres</strong></li>
     </ol>
+    </section>    
 <hr>
+<section>
     <h1>EXO 03</h1>
     <ol>
         <li>HTLM: HyperText Markup Language</li>
@@ -52,9 +70,48 @@
                 <li>Element: ils définissent la structure et le contenu des objetsau sein d'un page. Les plus courament utilisés sont les niveaux de titre (h1 à h6) et les paragraphe (avec la balise p) </li>
                 <li>balise: elles sont reconnaisables car elle son encadrée d'un chevron ouvrant et d'un cheveron fermant.l'ouverture d'une balise déterminele début d'un élément. Sa fermeturedétermine sa fin. Le conternu qui est inséréentre une balise ouvrante et fermantes représante le contenuede cet élément. 
                     Par example, un lien html sera encadré d'une balise A ouvrante et une fermant. Il existe aussi des balise auto fermantes (aussi dites orphelines.)</li>
-                <li>attributs: ce sont des propriétés utilisés pour fournir des informations complémentaires sur un élément. Les attribut CLASS</li>    
-            </ul>    
+                <li>attributs: ce sont des propriétés utilisés pour fournir des informations complémentaires sur un élément. Les attribut les plus communs incluent l'attibut ID (qui identifie un élément), l'attibut CLASS (qui classifie un élément), l'attribut SRC(qui spécifie la source d'un contenu qui peut etre imbriqué), et l'arttibut HRFF (qui comtient un lien hypertexte vers la source lié). Les attributson definis au sein de la balise ouvrante après le nom de l'élément: &lt;a href="https://github.com/Ma6Tvacoder-Docs/partage">lien&lt;/a></a> </li>    
+            </ul>
+        <li>Structure: </li> 
+            <ul>
+                <li>un fichier HTML est un fichier brut (non mis en forme) enregistré avec l'extension _.html_. </li>
+                <li>tout mes fichier html on une structure de base qui implique de déclarer les éléments suivants: </li>
+                <pre>
+                    &lt;!DOCTYPE html>
+                    &lt;html><br>
+                            &lt;head>
+                                    &lt;title>&lt;/title>
+                            &lt;/head>
+                            &lt;body>
+                            <br>
+                            &lt;/body>
+                            <br>
+                    &lt;/html>
+                </pre>
+                <li><strong>DOCTYPE html</strong> informe le navigateur web que le documument est de type html et qu'il s'agut (ici) de la dernière version du langage, le HTLM 5. en HTML4.01, la précédente version avant le 5, cette balise s'écrivais &lt;!DOCTYPE HTML PUBLIQUE"-//W3C//DTD HTML 4.01 Frameset//EN""http://www.w3.org/TR/html4/framset.dtd"></li>
+                <li>à l'interieur de l'élément<em>html</em> la balise <strong>head</strong> identifie le débutdu document et inclut les métadonnées (information de la page). le contenue à l'interieur de la balise head n'est pas affiché par le navigateur puisqu'il donne des informations sur la page (lien vers des fichiers externes, utilisation du langage html, titre de la page). </li>
+                <li>tout ce qui s'affiche dans le navigateur est inclus à l'intérieur de la balise <strong>body</strong>.</li>
+                <li>quand un élément est placé au sein d'un autre (ou imbriqué) il est important d'<strong>indenter</strong> cet élément en le décalent vers la droite à l'aide de la tabulation pour conserver une structure bien organisée et lisible pour tout le monde.</li>
+                <li>les balises en paires comportent un balise ouvrante et un balise fermente indiquant pour chacunele début et la fin de lélément corespondant.</li>
+                <li>les balise auto-fermante corresponde à des éléments ponctuels dans une page html, pas besoin de fournir une information de fin (insérer un image ou un lien par exemple). les plus courantes: </li>
+                <p>
+                    &lt;br/>
+                    &lt;img/>
+                    &lt;meta/>
+                    &lt;input/>
+                    &lt;hr/>
+                    &lt;link/>        
+                </p>
+            </ul>
+        <li>Le W3C-la validation du code</li>
+            <p>
+                Le<strong>World Wild Web Consortiom</strong>, abrégé par le sigle <stong>W3C</stong>, est un organisme de standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du <a href="https://fr.wikipedia.org/wiki/World_Wild_Web">World Wild Web</a> telles que le <a href="https://fr.wikipedia.org/wiki/HTML5">HTML5,</a> <a href="https://fr.wikipedia.org/wiki/Hypertext_markup_Language">HTML</a> <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">CSS</a> <a href="https://fr.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> <a href="https://fr.wikipedia.org/wiki/Scalabe_Vector_Graphics">SVG</a>...
+                Le <a href="http://www.w3.org">W3C ou World Wild Web Consortium</a>, est un organisme international qui dévloppe des <a href="http://www.w3.org/standards/">standards</a> pour le Web afin que les gens puissent communiquer efficacement à travers Interne, autour de formats ouverts garantissant une meilleure interopérabilité (c'est à dire une meilleure compréhension des système hétérogènes à travers des données et langages standardisés). le consortium existe depuis 1994 et est dirigé par l'inventeur du Web, Tim Berners-lee. IL est composé d'une équipe fixe et de membres (dont des centaines d'entreprise partenaires). Les membres délèguent des ingenieurs au sein du W3C et participent ainsi à
+                l'élaboration des spécifications techniques pour les technologies du Web. De nombreux membres actifs font partie des équipes de dévloppement des navigateurs (Microsoft, Mozilla, Apple, Opera, Google,ect).
+            </p>            
+            <br>      
     </ol>
+</section>    
 
 </body>
 </html>

@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+label{
+    width:  190px; /*width= largeure*/
+    color: green;
+    background-color: lightgray;
+}
+fieldset{
+    background-color: navy;
+}
+textarea{
+    background-color: slateblue;
+}
+form{
+    background-color: rebeccapurple;
+    color: lime;
+}
+input{
+    background-color: pink;
+    color: green;
+}
