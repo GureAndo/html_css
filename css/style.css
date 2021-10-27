@@ -23,5 +23,5 @@ selecteur{
     propriété: valeur;
 }
 
-.class1 .class2 .class3{ /*ici on parle de ka classe 3 qui est dans la classe 2 qui lui est dans la classe 1*/
+.class1 .class2 .class3{ /*ici on parle de la classe 3 qui est dans la classe 2 qui lui est dans la classe 1*/
 }

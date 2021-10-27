@@ -48,8 +48,8 @@ section p:nth-child(3), section p:nth-child(10){
     background-color: yellow;
 }
 
-.zone3:before{
-    content:"rajouté avant";/*content est oubligatoir pour rajouter des chose*/
+.zone3:before{/* les 2 point sont des pseudo classe*/
+    content:"rajouté avant";/*content est oubligatoire pour rajouter des chose*/
     background-color: orangered;
 }
 
@@ -68,7 +68,7 @@ li:nth-of-type(2){
 }
 
 span:not(.lime){
-    font-weight: bold;/*graise de de la polece*/
+    font-weight: bold;/*graise de de la police*/
 }
 
    
