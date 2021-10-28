@@ -1,0 +1,12 @@
+.contenu{
+    height: 500px;
+    width: 500px; 
+    margin: auto; 
+    border-radius: 50%;/*arrondie les angle*/
+    /* background: linear-gradient(to left, black, red);va de droite a gauche,: rouge a gauche et noir a droite: "cntr :" */
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(323deg, rgba(0,0,0,1) 0%, rgba(244,7,7,1) 100%);
+    background: -webkit-linear-gradient(323deg, rgba(0,0,0,1) 0%, rgba(244,7,7,1) 100%);
+    background: linear-gradient(323deg, rgba(0,0,0,1) 0%, rgba(244,7,7,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#f40707",GradientType=1);  
+}

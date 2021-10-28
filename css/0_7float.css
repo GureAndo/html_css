@@ -1,0 +1,23 @@
+body{
+    margin: 0;/*en haut a droite en bas a gauche = margin 0*/
+}
+
+.boite{
+    height: 10vh;/*vh= viewport heighy* heuteur de l'ecrant */
+    width: 10vw;/*vw = viewport width largeur */
+    padding: 5vh;/*hauteur d'ecrant*/
+    background-image: url(../img/shinra-kusakabe-fire-force-fond-d-ecran-41111_L.jpg);
+    background-size: cover; /*etire l'image pour qu'elle rentre dans la balise */
+    border: 5px double black;
+    margin:2vh; 
+    float:left; /* effet flotant, ca sort éléments du flux naturel et la page et les place les uns à coté des autres*/
+    transition: margin 0.5s; /*sa augment le marginen 0.5 sec grace à :hover*/
+}
+
+.boite:hover{/*pseudo-class qui applique un effer au survol de la souris*/
+    margin-top: 10vh;
+}
+
+.clear{
+    clear: both; /* supprime l'effet flottant des deux coté*/
+}
