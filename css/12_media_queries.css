@@ -1,0 +1,30 @@
+/*media queries servent a faire d'une feulle de style un style adaptable a un petit/grand écran 
+on appel breakpoint les valeurs auquelles le design casse.
+on peut verifier sa sur viewportsizes.com*/
+
+.zone-adaptative{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+@media(min-width: 768px){
+        .zone-adaptative{
+            width: 750px;
+            background-color: orange;
+        }
+}
+
+@media(min-width: 992px){
+        .zone-adaptative{
+            width: 970px;
+            background-color: blue;
+        }
+}
+
+@media (min-width: 1200px){
+    .zone-adaptative{
+        width:1170px;
+        background-color: green;
+    }
+}
