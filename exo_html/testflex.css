@@ -1,0 +1,92 @@
+.contenair, .contenair2{
+    border:  2px solid gray;
+    margin: 20px;
+
+}
+.contenairA{
+    display:flex;
+    justify-content: center;
+}
+
+.contenair1{
+    display: flex;
+    justify-content: center;
+}
+.contenair2{
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(88, 88, 88);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tuermoi{
+    height: 100px;
+    width: 800px;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 20px;
+
+}
+
+#pasdidee{
+    border:  2px solid gray;
+    margin: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+#heart, #spade, #clover, #diamond{
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+    background-color: rgb(88, 88, 88);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.spade{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(190, 42, 42);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hd{
+    display: flex;
+    flex-direction:column ;
+}
+
+.sc{
+    display: flex;
+    flex-direction: column;
+}
+
+.sc, .hd{
+    justify-content: space-between;
+}
